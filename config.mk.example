@@ -1,0 +1,10 @@
+# Copy this file to config.mk and set your local path.
+#   cp config.mk.example config.mk
+# config.mk is gitignored, so your personal values never enter the repo.
+
+# Absolute path to your Resident Evil (1996) language folder - the directory
+# containing "ResidentEvil.exe" (english, french or german under the Steam
+# install). The path may contain spaces; that is fine - do not quote it here.
+# Windows example:      GAME_DIR := C:/Program Files (x86)/Steam/steamapps/common/4249100_Biohazard/english
+# Linux/Proton example: GAME_DIR := /home/you/.local/share/Steam/steamapps/common/4249100_Biohazard/english
+GAME_DIR := /path/to/4249100_Biohazard/english
